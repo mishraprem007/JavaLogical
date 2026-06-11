@@ -1,20 +1,18 @@
 package stringSingleWords;
 
 /*
- *  #1 Write a java program to reverse a string.
+ * #2. Write a java program to reverse a string without using extra variable
  */
-public class Q1_ReverseString {
+public class Q2_ReverseStringWithoutVar {
 
 	public static void main(String[] args) {
 
 		String str = "Testing";
-		String rev = "";
-
 		for (int i = str.length() - 1; i >= 0; i--) {
 			char ch = str.charAt(i);
-			rev = rev + ch;
+			System.out.print(ch);
 		}
-		System.out.println(rev);
+
 	}
 
 }
